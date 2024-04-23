@@ -19,6 +19,7 @@ namespace WeatherForecastTest.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
+        [Route("{id}")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -28,6 +29,12 @@ namespace WeatherForecastTest.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpPost(Name = "SetWeatherForecastRequest")]
+        public ActionResult<WeatherForecastRequest> Set(WeatherForecastRequest request)
+        {
+            return BadRequest();
         }
     }
 }
