@@ -21,9 +21,9 @@ namespace HRSolutions.UseCases.Models
         {
 
             var employeeExists = await _employeeService.EmployeeExists(request.Request.EmployeeId);
-            if (employeeExists)
+            if (!employeeExists)
             {
-                return new DeleteEmployeeResponse() { Status = StatusResponse.Conflict, Errors = [EntityErrors.Duplicated] };
+                return new DeleteEmployeeResponse() { Status = StatusResponse.Conflict, Errors = [EntityErrors.NotFound] };
             }
 
             var deletedEmployee = await _repository.DeleteAsync(entity => entity.EmployeeId == request.Request.EmployeeId );
