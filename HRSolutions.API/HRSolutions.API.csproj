@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Employee.Application\HRSolutions.Application.csproj" />
-    <ProjectReference Include="..\Employee.DataAccess\HRSolutions.DataAccess.csproj" />
+    <ProjectReference Include="..\HRSolutions.Application\HRSolutions.Application.csproj" />
+    <ProjectReference Include="..\HRSolutions.DataAccess\HRSolutions.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
