@@ -1,1 +1,1 @@
-# WeatherForecastTest
+# HRSolutions (API example for Kriegspieltech)
