@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HRSolutions.Application.Models
+﻿namespace HRSolutions.Application.Models
 {
-    public class BaseResponse
-    {
+    public abstract class BaseResponse
+    { 
+        public required StatusResponse Status { get; set; }
         public DateTime Date { get; set; } = DateTime.Now;
+        public List<string>? Errors { get; set; }
     }
 }

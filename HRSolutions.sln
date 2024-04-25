@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Presentation", "3. Prese
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRSolutions.DataAccess", "Employee.DataAccess\HRSolutions.DataAccess.csproj", "{697A974D-2354-44B6-88C9-EBEB0FBF9898}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSolutions.Domain.UnitTests", "HRSolutions.Domain.UnitTests\HRSolutions.Domain.UnitTests.csproj", "{C989F624-1589-4891-BE01-A5B3A899B398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{697A974D-2354-44B6-88C9-EBEB0FBF9898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{697A974D-2354-44B6-88C9-EBEB0FBF9898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{697A974D-2354-44B6-88C9-EBEB0FBF9898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C989F624-1589-4891-BE01-A5B3A899B398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C989F624-1589-4891-BE01-A5B3A899B398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C989F624-1589-4891-BE01-A5B3A899B398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C989F624-1589-4891-BE01-A5B3A899B398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{75F2ED8A-BFEF-460F-BE28-6F319F7BE075} = {5C00BC4C-74F1-484C-8D00-93FAFC56CA4F}
 		{63CA4A8C-E35B-4114-8ACB-86F0B3B88A28} = {A5AD7DAF-BA54-4D86-A9A7-1A0956EB945A}
 		{697A974D-2354-44B6-88C9-EBEB0FBF9898} = {D0A0CCD1-0113-4AB5-9B0A-BD493B3BAF14}
+		{C989F624-1589-4891-BE01-A5B3A899B398} = {86437018-4F51-450E-B649-B85D46BEE576}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88429D5E-71DC-449E-9CA5-EEA02CC5A497}

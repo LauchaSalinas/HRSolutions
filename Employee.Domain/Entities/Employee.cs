@@ -1,6 +1,8 @@
-﻿namespace HRSolutions.Domain.Entities
+﻿using HRSolutions.Domain.Interfaces;
+
+namespace HRSolutions.Domain.Entities
 {
-    public class Employee
+    public class Employee : IBaseEntity , IAggregateRoot
     {
         public required DateOnly BirthDate { get; set; }
         public required string FullName { get; set; }
