@@ -1,1 +1,1 @@
-# HRSolutions (API example for Kriegspieltech)
+# HRSolutions (API example)
